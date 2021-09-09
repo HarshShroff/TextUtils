@@ -1,2 +1,4 @@
+*.pyc
+__pycache__
 textutils/__pycache__
 TextUtils/textutils/__pycache__
