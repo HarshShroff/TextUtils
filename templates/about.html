@@ -5,10 +5,12 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
 
     <title>Text Utils</title>
 </head>
@@ -16,10 +18,8 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Text Utils</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
+            <a class="navbar-brand">Text Utils</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -31,25 +31,46 @@
                         <a class="nav-link" href="/about">About</a>
                     </li>
                 </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
             </div>
         </div>
     </nav>
 
-    <div class="container">
-        
+    <div class="alert alert-success alert-dismissible fade show" role="alert">
+        Pardon! This is a very basic "About Section."
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <div class="w3-content w3-container w3-padding-64" id="about">
+        <h3 class="w3-center">ABOUT ME</h3>
+        <p class="w3-center"><em>"It isn't what it is, it's what it is going to be"</em></p>
+        <div class="w3-row">
+            <div class="w3-col m6 w3-center w3-padding-large">
+                <p><b><i class="fa fa-user w3-margin-right"><a
+                                href="https://www.linkedin.com/in/harsh-shroff-3560391ba/" target=_blank
+                                style="color:black; text-decoration:none;">
+                        </i>Shroff Harsh</b></a>
+                </p><br>
+                <a href="https://www.linkedin.com/in/harsh-shroff-3560391ba/" target=_blank><img src="https://media-exp1.licdn.com/dms/image/C4E03AQFHqgeqB5ZLHA/profile-displayphoto-shrink_200_200/0/1628081735289?e=1636588800&v=beta&t=nfdMBydFzS71VZdwj4er9grHNgTZPDHyMFJn9hhp6kU" class="w3-round w3-image w3-opacity w3-hover-opacity-off"
+                        alt="Photo of Me" width=175 height=175></a>
+            </div>
+
+            <!-- Hide this text on small devices -->
+            <div class="w3-col m6 w3-padding-large">
+                <p style="text-align: justify;">
+                    Hello and welcome to my website. I'm Shroff Harsh, and I'm currently studying Electronics and Communication Engineering at Vishwakarma Government Engineering College, Ahmedabad (2019-2022). This is my first website built with Django. This website is all
+                    about changing the input text, such as removing punctuation, capitalization, newlines, and extra spaces. All of these operations are carried out on the backend using Python. I enjoy coming up with fresh ideas and coming up with practical
+                    answers to challenges that are generally applicable. I like accepting failure's lessons, rising above it, and continuing to develop.
+                    <b>Thank you very much!</b>
+                </p>
+            </div>
+        </div>
     </div>
 
 
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
 
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--

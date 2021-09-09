@@ -58,5 +58,5 @@ def analyze(request):
 
     return render(request, 'analyze.html', params)
 
-# def about(request):
-#     return render(request, 'about.html')
+def about(request):
+    return render(request, 'about.html')
